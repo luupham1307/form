@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=`,initial-scale=1.0">
+    <title>Form Request Wallet</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="formRequest">
+        <form>
+            <h2>
+                Submit a request
+            </h2>
+            <div class="inputBox">
+                <input type="text" placeholder="Your email address" required>
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <label>
+                <input type="checkbox" checked required>
+                <span class="textInput">
+                    I declare that I have read, understood, and fully agree to the terms and
+                    conditions stipulated at
+                </span>
+            </label>
+            <label>
+                <input type="checkbox" checked required>
+                <span class="textInput">
+                    I acknowledge that Unidi reserves the right, in their sole discretion, to
+                    determine the suitability of my request for the site. In the event that Unidi rejects my request, I
+                    acknowledge that Unidi is not obligated to inform me or provide any reasons for such refusal.
+                </span>
+
+
+            </label>
+            <label>
+                <input type="checkbox" checked required>
+                <span class="textInput">
+                    I declare that the information provided on the form is accurate and complete to the best of my
+                    knowledge and that failure to fulfill these requirements may render my request inadmissible.
+                </span>
+
+            </label>
+            <div class="inputBox">
+                <textarea placeholder="Relationship with the Project" required></textarea>
+                <i class="fa-solid fa-user-group"></i>
+                
+            </div>
+            <i class="textNote">Please describe your relationship with the project (e.g. CEO, founder, employee,
+                community member
+                …)</i>
+            
+
+            <div class="textInput">
+                Project Launch Date:
+            </div>
+            <div class="inputBox">
+
+                <input type="date" id="projectLaunchDate" name="projectLaunchDate" required>
+            </div>
+            <i class="textNote">The date the project launched (e.g. token sale, genesis block, formation of company,
+                drafting of
+                business
+                plan) Where possible, provide evidence/links for verification.</i>
+
+
+            <div class="inputBox">
+                <input type="text" placeholder="Project Name" required>
+                <i class="fa-regular fa-file"></i>
+            </div>
+            <i class="textNote">Please provide the FULL name of the project (e.g. Bitcoin, Ethereum, Ripple, Holochain, Binance, Bittrex).</i>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Detailed Project Description (Cryptoasset)" required>
+                <i class="fa-solid fa-circle-info"></i>
+            </div>
+
+
+            <div class="inputBox">
+                <input type="text" placeholder="Platform (e.g. EOS, NEO, Ethereum, proprietary blockchain)." required>
+                <i class="fa-brands fa-hive"></i>
+            </div>
+            <i class="textNote">Please specify all token platforms that the asset is currently on. For example, CHZ has ERC20 and BEP20 tokens and is therefore on the Ethereum and Binance blockchains.</i>
+            
+            <div class="inputBox">
+                <input type="text" placeholder="Media Coverage/Awards" required>
+                <i class="fa-solid fa-award"></i>
+            </div>
+            <i class="textNote">Provide valid URL(s) to articles/references.</i>
+            
+            <div class="inputBox">
+                <input type="text" placeholder="Country of Origin" required>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <i class="textNote">Please indicate the country where the majority of your team is located. If applicable, please provide a list of countries and indicate the location of your headquarters.</i>
+            
+            <div class="inputBox">
+                <input type="text" placeholder="Link to Logo" required>
+                <i class="fa-solid fa-image"></i>
+            </div>
+            <i class="textNote">3 conditions MUST be met: (1) Transparent background; (2) Square (200x200); unequal sizes will be rejected! (3) PNG format. If possible, you should provide the icon URL ending in .png so that our system can extract the icon directly.</i>
+            
+            <div class="inputBox">
+                <input type="text" placeholder="Website 1" required>
+                <i class="fa-solid fa-link"></i>
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Website 2" required>
+                <i class="fa-solid fa-link"></i>
+            </div>
+            
+            <div class="inputBox">
+                <input type="text" placeholder="Platform of Contract Address" required>
+                
+                <i class="fa-solid fa-file-contract"></i>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Contract Address" required>
+                <i class="fa-solid fa-address-book"></i>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Number of Decimals" required>
+                <i class="fa-regular fa-id-badge"></i>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Block Explorer" required>
+                <i class="fa-solid fa-cubes"></i>
+            </div>
+            <i class="textNote">Insert a valid URL with the CONTRACT ADDRESS, e.g. https://etherscan.io/token/0x27f0d7.... This is a mandatory field for projects that are already trading on an exchange.</i>
+            
+            <div class="inputBox">
+                <input type="text" placeholder="Affiliation with other exchanges (Type 'NA' if not applicable)" required>
+                <i class="fa-brands fa-connectdevelop"></i>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Whitepaper / Technical Documentation" required>
+                <i class="fa-regular fa-newspaper"></i>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Twitter" required>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Telegram" required>
+                <i class="fa-brands fa-telegram"></i>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Reddit" required>
+                <i class="fa-brands fa-reddit"></i>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Facebook" required>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Project introduction video" required>
+                <i class="fa-regular fa-circle-play"></i>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Linkedln" required>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

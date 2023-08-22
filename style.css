@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #edf1f4;
+    padding: 20px;
+}
+
+.formRequest {
+    position: relative;
+    width: 50%;
+    padding: 80px 50px 50px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 20px #fffb;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
+}
+
+.formRequest form {
+    position: relative;
+    width: 100%;
+}
+
+.formRequest form h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    line-height: 0.9em;
+}
+
+.formRequest form h2 span {
+    font-weight: 300;
+    font-size: 0.65em;
+}
+
+.formRequest form .inputBox {
+    position: relative;
+    display: flex;
+    margin-top: 25px;
+}
+
+.formRequest form .inputBox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.formRequest form .inputBox textarea {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 1em;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    padding-left: 40px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -5px -5px 10px #fff;
+}
+
+.formRequest form .inputBox input[type="text"] {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -5px -5px 10px #fff;
+}
+
+.formRequest form .inputBox input[type="date"] {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -5px -5px 10px #fff;
+}
+
+.formRequest form .inputBox i {
+    position: absolute;
+    left: 20px;
+    top: 23%;
+}
+
+.formRequest form label {
+    display: inline-table;
+
+}
+
+.formRequest form input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: -22px;
+}
+
+.formRequest form .inputBox input[type="submit"] {
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),
+        -5px -5px 10px #fff;
+    width: 100%;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.formRequest form .inputBox input[type="submit"]:focus {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -5px -5px 10px #fff;
+}
+
+.formRequest form label .textInput {
+    font-size: 14px;
+}
+
+.formRequest form label {
+    margin-bottom: 5px;
+}
+
+.textNote {
+    font-size: 13px;
+}
